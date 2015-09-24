@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<title>Benzene</title>
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" href="style/fa/css/font-awesome.min.css">
+		<script type = 'text/javascript' src="vendor/hammer.min.js"></script>
+		<script type = 'text/javascript' src="vendor/jsonfn.min.js"></script>
+		<script type = 'text/javascript' src="vendor/keypress.min.js"></script>
+		<script type = 'text/javascript' src="vendor/jquery.js"></script>
+		<script type = 'text/javascript' src="js/save-state.js"></script>
+		<script type = 'text/javascript' src="js/view.js"></script>
+		<script type = 'text/javascript' src="js/wavegen.js"></script>
+		<script type = 'text/javascript' src="js/math.js"></script>
+		<script type = 'text/javascript' src="js/Block.js"></script>
+		<script type = 'text/javascript' src="js/Hex.js"></script>
+		<script type = 'text/javascript' src="js/Text.js"></script>
+		<script type = 'text/javascript' src="js/comboTimer.js"></script>
+		<script type = 'text/javascript' src="js/checking.js"></script>
+		<script type = 'text/javascript' src='js/update.js'></script>
+		<script type = 'text/javascript' src='js/render.js'></script>
+		<script type = 'text/javascript' src="js/input.js"></script>
+		<script type = 'text/javascript' src="js/main.js"></script>
+		<script type = 'text/javascript' src="js/initialization.js"></script>
+		<script type = 'text/javascript' charset = 'utf-8' src = 'cordova.js'></script>
+	</head>
+	<body>
+		<canvas id="canvas"></canvas>
+		<div class="faded overlay"></div>
+		<div id='startBtn' style='position:absolute;left:40%;top:38%;height:25%;width:25%;z-index:99999999;cursor:pointer;'></div>
+		<div id="helpScreen" class = 'unselectable'>
+			<h1 class = 'instructions_body'>Instructions</h1>
+			<p class = 'instructions_body' id = 'inst_main_body'></p>
+		</div>
+		<div id="openSideBar" class = 'helpText'><i class="fa fa-info-circle fa-lg"></i> <i class="fa fa-arrow-left"><b>  Help</b></i></div>
+		<div class="faded overlay"></div>
+		<div id = 'pauseBtn'><div id = 'pauseBtnInner'><i class="fa fa-pause fa-2x"></i></div></div>
+		<div id = 'restartBtn'><div id = 'restartBtnInner'><i class="fa fa-refresh fa-2x"></i></div></div>
+   </body>
+</html>
